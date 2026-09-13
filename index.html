@@ -77,6 +77,11 @@
         margin-top: 30px;
     }
 
+    h3 {
+        color: #ffed00;
+        margin-top: 20px;
+    }
+
     p, ul {
         margin-bottom: 20px;
     }
@@ -129,9 +134,16 @@
     <h2>1. Introduction</h2>
     <p>Welcome to Volt, a simple note-taking app designed with your privacy in mind. We are committed to protecting your privacy and want to be transparent about how we handle (or rather, do not handle) your data. This Privacy Policy explains that all your notes and data are stored locally on your device and are not collected or transmitted by us.</p>
 
-    <h2>2. Data Collection and Usage</h2>
+    <h2>2. Data Collection, Usage, and Third-Party Integrations</h2>
     <p>Volt <strong>does not collect, store, or transmit any of your personal information or the content of your notes</strong> to any external servers or third parties. Everything you create in Volt stays on your device, under your control.</p>
-    <p>The app allows you to export your notes as `.volt` files. This action is initiated by you, and the files are saved to your device's local storage as per your instruction. We do not have access to these files unless you choose to share them externally yourself.</p>
+
+    <h3>Optional Google Drive Cloud Backup</h3>
+    <p>Connecting to Google Drive is <strong>strictly optional</strong>. It is provided solely as a solution for users who wish to back up their data to their own private cloud account. If you choose to enable this feature, your backups are sent directly to your personal Google Drive storage. We do not have access to your Google credentials, your private Google Drive files, or your backup data.</p>
+
+    <h3>Firebase SDK & Scan OCR Feature</h3>
+    <p>The app includes the Firebase SDK, which is strictly required to power the OCR (Optical Character Recognition) plugin used by the scan feature within note information types. This allows text recognition to work directly on your device or via necessary framework components, without exporting your personal notes or content to us.</p>
+
+    <p>The app also allows you to export your notes as `.volt` files. This action is initiated by you, and the files are saved to your device's local storage as per your instruction. We do not have access to these files unless you choose to share them externally yourself.</p>
 
     <h2>3. Pre-Registration Reward Terms & Conditions</h2>
     <p>If you pre-register for Volt on Google Play, you may be eligible to receive an in-app pre-registration reward. The following terms apply to this reward:</p>
@@ -144,7 +156,7 @@
     </ul>
 
     <h2>4. Data Security</h2>
-    <p>Since all data is stored locally on your device, the security of your data largely depends on the security of your device itself. We recommend you use your device's built-in security features (like passcodes and biometric authentication) to protect your information. The `.volt` file format is designed to be a secure container for your notes when you export them.</p>
+    <p>Since all primary data is stored locally on your device (or in your personal, optional Google Drive account if configured), the security of your data largely depends on the security of your device and personal account. We recommend you use your device's built-in security features (like passcodes and biometric authentication) to protect your information. The `.volt` file format is designed to be a secure container for your notes when you export them.</p>
 
     <h2>5. Children's Privacy</h2>
     <p>Volt is not directed at individuals under the age of 13 (or the relevant age in your jurisdiction). We do not knowingly collect personal information from children. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us so that we can take necessary actions.</p>
